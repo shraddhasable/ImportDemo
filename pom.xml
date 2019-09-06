@@ -25,4 +25,8 @@
       </plugin>
     </plugins>
   </build>
+      
+  <properties>
+        <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
+  </properties>
 </project>
