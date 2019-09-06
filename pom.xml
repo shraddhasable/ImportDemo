@@ -4,7 +4,6 @@
   <artifactId>Myproject1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
- 
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>Test</testSourceDirectory>
@@ -25,12 +24,5 @@
         </configuration>
       </plugin>
     </plugins>
-    
-    <dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>
-    <version>3.0</version>
-</dependency>
-  
   </build>
 </project>
