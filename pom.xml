@@ -24,5 +24,10 @@
         </configuration>
       </plugin>
     </plugins>
+    
+    <properties>
+    <project.build.sourceEncoding>Cp1252</project.build.sourceEncoding>
+  </properties>
+    
   </build>
 </project>
