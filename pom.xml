@@ -4,6 +4,16 @@
   <artifactId>Myproject1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <dependencies>
+  <dependency>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-compiler-plugin</artifactId>
+  <version>3.8.1</version>
+  <type>maven-plugin</type>
+  </dependency> 
+  </dependencies>  
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>Test</testSourceDirectory>
@@ -25,8 +35,4 @@
       </plugin>
     </plugins>
   </build>
-      
-  <properties>
-        <maven-compiler-plugin-version>2.3.2</maven-compiler-plugin-version>
-  </properties>
 </project>
